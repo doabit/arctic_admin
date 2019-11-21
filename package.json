@@ -1,0 +1,29 @@
+{
+  "name": "arctic-admin",
+  "version": "1.0.0",
+  "description": "activeadmin theme",
+  "main": "app/assets/javascripts/arctic_admin/base.js",
+  "files": [
+    "app/assets/javascripts/arctic_admin/*.js",
+    "src/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "rm -rf src && cp -R app/assets/javascripts/arctic_admin src && cp -R app/assets/stylesheets/arctic_admin src/scss && cp -R app/assets/fonts src/fonts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doabit/arctic_admin.git"
+  },
+  "keywords": [
+    "activeadmin",
+    "theme",
+    "arctic-admin"
+  ],
+  "author": "Doabit <doinsist@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doabit/arctic_admin/issues"
+  },
+  "homepage": "https://github.com/doabit/arctic_admin#readme"
+}
